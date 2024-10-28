@@ -1,3 +1,10 @@
+'''
+audio_processing.py
+
+This module provides functions to load and save audio files.
+It uses the `wave` library to read WAV files and `scipy.io.wavfile.write` to save them.
+The audio data is returned as a NumPy array, making it suitable for further processing.
+'''
 import wave
 import numpy as np
 from scipy.io.wavfile import write
