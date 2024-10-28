@@ -29,13 +29,13 @@ pip install -r requirements.txt
 
 ## 📁 Project Structure
 - AudioECC/
+- ├── README.md                  # Project documentation
 - ├── audio_processing.py        # Audio I/O functions
-- ├── ecc_encryption.py          # ECC encryption/decryption functions
-- ├── plotting.py                # Plotting functions
-- ├── utils.py                   # Utility functions
+- ├── ecc_encryption.py          # ECC encryption/decryption functionst
 - ├── main.py                    # Main script
+- ├── plotting.py                # Plotting functions
 - ├── requirements.txt           # List of required packages
-- └── README.md                  # Project documentation
+- └── utils.py                   # Utility functions
 
 ## 🛠 Examples
 **Encrypting and Decrypting an Audio File**
