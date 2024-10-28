@@ -2,12 +2,12 @@
 
 A Python project demonstrating audio encryption and decryption using **Elliptic Curve Cryptography (ECC)**. This educational project explores ECC principles applied to audio, transforming audio signals into encrypted waveforms and recovering the original upon decryption. Includes utilities for processing audio files, generating ECC keys, and visualizing signals.
 
-## 📜 Table of Contents
+## 📜Table of Contents
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Examples](#examples)
+- [Project Structure](#projectstructure)
+- [Example](#example)
 - [Limitations](#limitations)
 
 ## ✨ Features
