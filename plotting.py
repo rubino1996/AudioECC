@@ -1,3 +1,11 @@
+'''
+plotting.py
+
+This module provides a function to visualize the original, encrypted, and decrypted audio signals.
+It plots the signals on a shared time axis, showing how the audio waveform changes through the
+encryption and decryption process. Optionally, it saves the generated plot as an image.
+'''
+
 import matplotlib.pyplot as plt
 
 
