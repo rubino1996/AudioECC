@@ -1,3 +1,11 @@
+'''
+ecc_encryption.py
+
+This module provides functions for initializing an elliptic curve, generating keys,
+computing shared secrets, and performing encryption and decryption on points using 
+Elliptic Curve Cryptography (ECC).
+'''
+
 import secrets
 import tinyec.ec as ec
 import numpy as np
