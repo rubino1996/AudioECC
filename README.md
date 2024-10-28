@@ -26,14 +26,14 @@ https://github.com/rubino1996/AudioECC.git
 3. View Output: Encrypted and decrypted audio files will be saved in data/output/, and a plot showing the original, encrypted, and decrypted waveforms will be saved and displayed.
 
 ## 📁 Project Structure
-AudioECC/
-├── audio_processing.py        # Audio I/O functions
-├── ecc_encryption.py          # ECC encryption/decryption functions
-├── plotting.py                # Plotting functions
-├── utils.py                   # Utility functions
-├── main.py                    # Main script
-├── requirements.txt           # List of required packages
-└── README.md                  # Project documentation
+- AudioECC/
+- ├── audio_processing.py        # Audio I/O functions
+- ├── ecc_encryption.py          # ECC encryption/decryption functions
+- ├── plotting.py                # Plotting functions
+- ├── utils.py                   # Utility functions
+- ├── main.py                    # Main script
+- ├── requirements.txt           # List of required packages
+- └── README.md                  # Project documentation
 
 ## 🛠 Examples
 **Encrypting and Decrypting an Audio File**
