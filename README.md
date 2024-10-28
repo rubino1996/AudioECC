@@ -8,6 +8,7 @@ A Python project demonstrating audio encryption and decryption using **Elliptic 
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Examples](#examples)
+- [Limitations](#limitations)
 
 ## ✨ Features
 - **Audio Encryption/Decryption**: Encrypt and decrypt audio signals with ECC.
