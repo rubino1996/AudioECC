@@ -1,3 +1,23 @@
+'''
+main.py
+
+This script performs encryption and decryption of audio signals using Elliptic Curve Cryptography (ECC).
+It demonstrates how to apply ECC to multimedia data by encrypting audio waveforms and attempting to
+recover the original signal upon decryption. The script also measures encryption and decryption times
+and saves the results to files.
+
+Dependencies:
+- audio_processing: For loading and saving audio files.
+- ecc_encryption: For ECC curve setup, key generation, and encryption/decryption of points.
+- utils: For auxiliary calculations, such as computing y-coordinates on the ECC curve.
+- plotting: For visualizing the original, encrypted, and decrypted audio signals.
+
+Outputs:
+- Encrypted and decrypted audio files are saved to the `data/output/` directory.
+- A plot of the original, encrypted, and decrypted signals is saved as an image.
+'''
+
+
 import time
 import numpy as np
 import tinyec.ec as ec
