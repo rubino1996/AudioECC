@@ -19,6 +19,8 @@ A Python project demonstrating audio encryption and decryption using **Elliptic 
 ## 📥 Installation
 1. Clone this repository:
 https://github.com/rubino1996/AudioECC.git
+2. Install the required dependencies:
+pip install -r requirements.txt
 
 ## 🚀 Usage
 1. Prepare an Audio File: Place your audio file (e.g., input_audio.wav) in the data/ directory.
