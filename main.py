@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 # Load and process the audio file
 sample_freq, n_samples, signal_array = load_audio(
-    r"C:\Users\ruben\Documents\NAU\PhD\Fall2023\ECC\ruben3.wav")
+    "data/input_audio.wav"")
 t_audio = n_samples / sample_freq
 times = np.linspace(0, t_audio, num=n_samples)
 
@@ -78,9 +78,9 @@ print(f"Decryption time: {decryption_time:.4f} seconds")
 scaled_encrypted_signal_array = np.array(
     (encrypted_x_values / np.max(np.abs(encrypted_x_values)) * 32767), dtype=np.int16)
 decrypted_signal_array = np.array(decrypted_x_values, dtype=np.int16)
-save_audio(r"C:\Users\ruben\Documents\NAU\PhD\Fall2023\ECC\encrypted_audio.wav",
+save_audio("data/output/encrypted_audio.wav",
            sample_freq, scaled_encrypted_signal_array)
-save_audio(r"C:\Users\ruben\Documents\NAU\PhD\Fall2023\ECC\decrypted_audio.wav",
+save_audio("data/output/decrypted_audio.wav",
            sample_freq, decrypted_signal_array)
 
 # Plot the results and save the image
@@ -89,5 +89,5 @@ plot_signals(
     signal_array,
     encrypted_x_values,
     decrypted_x_values,
-    save_path=r"C:\Users\ruben\Documents\NAU\PhD\Fall2023\ECC\signal_plot.png"
+    save_path="data/output/plot.png"
 )
